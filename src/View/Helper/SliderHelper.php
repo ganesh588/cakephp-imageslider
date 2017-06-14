@@ -23,7 +23,7 @@ class SliderHelper extends Helper
 	* @params $images (array)
 	* @return html 
 	*/
-    public function plainSlideShow($images)
+	public function plainSlideShow($images)
 	{
 	    
 		echo $this->Html->css('ImageSlider.image-slider');
