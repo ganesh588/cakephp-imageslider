@@ -1,9 +1,9 @@
 ImageSlider plugin for CakePHP 3.X
 ================================
 
-It is a helper plugin to implement basic Imgae Slideshow. 
+It is a helper plugin to implement basic Image Slideshow. 
 
-It contains two types of slideshows.
+It contains two types of slideshows, one without links and one with links to the images. 
 
 General Features
 ----------------
@@ -17,14 +17,7 @@ Installation
 
 ### Adding the plugin
 
-You can easily install this plugin using composer as follows:
-
-```bash
-composer require elboletaire/twbs-cake-plugin
-```
-
-After doing it, composer will ask you for a version. Checkout the
-[package on packagist][packagist] to know every available version.
+You can easily install this plugin by cloning or copying the plugin code into your plugins directory. The folder name in plugins should be ‘ImageSlider’. This directory contains plugin’s src, tests and any other directories.
 
 ### Enabling the plugin
 
@@ -81,5 +74,5 @@ $images = array(
 			),		  
 		);
 
-That's All. You have a running image slideshow in your page. 
+That's All. You have a basic running image slideshow in your page. 
 Cheers!!!!

@@ -23,7 +23,8 @@ class SliderHelper extends Helper
 	* @params $images (array)
 	* @return html 
 	*/
-    public function plainSlideShow($images){
+    public function plainSlideShow($images)
+	{
 	    
 		echo $this->Html->css('ImageSlider.image-slider');
 		echo $this->Html->script('ImageSlider.image-slider');
@@ -46,7 +47,8 @@ class SliderHelper extends Helper
 	* @params $images (array)
 	* @return html
 	*/
-	public function linkSlideShow($images) {
+	public function linkSlideShow($images) 
+	{
 	    
 		echo $this->Html->css('ImageSlider.image-slider');
 		echo $this->Html->script('ImageSlider.image-slider');
