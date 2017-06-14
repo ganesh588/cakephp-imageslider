@@ -20,11 +20,11 @@ class SliderHelperTest extends TestCase
 
 	// Instantiating the plugin helper	
 	public function setUp()
-    {
+	{
         parent::setUp();
         $View = new View();
         $this->helper = new SliderHelper($View);
-    }
+	}
 
 
 	// Testing plainSlideShow function
